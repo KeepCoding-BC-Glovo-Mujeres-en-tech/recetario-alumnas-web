@@ -47,9 +47,36 @@
 
 /**********************************/
 
-/* ⤵️⤵️⤵️ Tus estilos aquí ⤵️⤵️⤵️ */
+/* ⤵️⤵️⤵️ Receta de Clara ⤵️⤵️⤵️ */
+.huevosRellenos {
+  background-color: rosybrown;
+}
 
-/* ⤴️⤴️⤴️ Tus estilos aquí ⤴️⤴️⤴️ */
+.huevosRellTitle {
+  color: sandybrown;
+  text-transform: uppercase;
+  text-align: center;
+  font-style: italic;
+  font-size: x-large;
+  margin-bottom: 10px;
+}
+
+.huevosRellDiv {
+  background-color: sandybrown;
+  border-radius: 10px;
+}
+
+.huevosRellUl {
+  line-height: 25px;
+}
+
+.huevosRellText {
+  color: beige;
+  text-align: justify;
+  margin-top: 5px;
+  line-height: 25px;
+}
+/* ⤴️⤴️⤴️ Receta de Clara ⤴️⤴️⤴️ */
 
 /**********************************/
 
