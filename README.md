@@ -26,7 +26,7 @@ De momento podemos omitir este paso, porque sólo vamos a utilizar `html` y `css
 
 ## Proceso
 
-1. Abre VSCode y clónate el repo en tu _Madre de los repos_ 😉 con `git clone <>`. Verás que tiene una carpeta _images_, otra de estilos, un archivo _README_ y un `index.html`. La estructura principal ya está desarrollada.
+1. Abre VSCode y clónate el repo en tu _Madre de los repos_ 😉 con `git clone https://github.com/KeepCoding-BC-Glovo-Mujeres-en-tech/recetario-alumnas-web.git`. Verás que tiene una carpeta _images_, otra de estilos, un archivo _README_ y un `index.html`. La estructura principal ya está desarrollada.
 
 2. Cuando quieras trabajar en el repo, empieza **SIEMPRE** haciendo `git pull`. Esto asegurará que te traes todos los cambios hechos por las compañeras antes que tú.
 
