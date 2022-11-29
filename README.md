@@ -4,7 +4,7 @@ Este es un repo de práctica para que las alumnas de la especialización web pod
 
 ## Contribuciones
 
-Para participar en este repositorio, escribe a [Clara](https://github.com/claraMirandaZ) por [Discord](https://discord.com/channels/1005086932998561815/1006149531408281691) o por el grupo para que te añada como colaboradora y puedas subir tu código.
+Para participar en este repositorio, escribe a [Clara](https://github.com/claraMirandaZ) por [Discord](https://discord.com/channels/1005086932998561815/1006149531408281691) o por el grupo, **indicándole tu usuario de GitHub**, para que te añada como colaboradora y puedas subir tu código.
 
 Puedes ir viendo cómo va el recetario visitando el enlace en la sección _about_ o pinchando en el icono de los huevos:
 
