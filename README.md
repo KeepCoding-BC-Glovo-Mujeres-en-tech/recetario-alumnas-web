@@ -9,7 +9,7 @@ Para participar en este repositorio, escribe a [Clara](https://github.com/claraM
 Puedes ir viendo cómo va el recetario visitando el enlace en la sección _about_ o pinchando en el icono de los huevos:
 
 <div align=center>
-  <a href="https://keepcoding-bc-glovo-mujeres-en-tech.github.io/recetario-alumnas-web/" target="_blank">
+  <a href="https://keepcoding-bc-glovo-mujeres-en-tech.github.io/recetario-alumnas-web/">
     <img src="https://github.com/KeepCoding-BC-Glovo-Mujeres-en-tech/recetario-alumnas-web/blob/main/images/deviled-egg-icon.png" style=" width:75px"/>
     <img src="https://github.com/KeepCoding-BC-Glovo-Mujeres-en-tech/recetario-alumnas-web/blob/main/images/deviled-egg-icon.png" style=" width:75px"/>
     <img src="https://github.com/KeepCoding-BC-Glovo-Mujeres-en-tech/recetario-alumnas-web/blob/main/images/deviled-egg-icon.png" style=" width:75px"/>
@@ -63,7 +63,7 @@ git checkout main
 ```
 git merge <nombre-de-la-rama>
 ```
-Pero el tema es que los merges pueden generar [conflictos](https://styde.net/ramas-y-resolucion-de-conflictos-en-git/), esto suele abortar la acción y pide que soluciones el problema manualmente, aceptando o rechazando los cambios que vienen. Puedes repasar esta parte revisando la [sección 10](https://plataforma.keepcoding.io/courses/13532/lectures/230695) del curso de [Alberto](https://github.com/kasappeal). Si estás en la terminal integrada de VSCode y hay conflictos, es posible que se abra el editor para que aceptes los cambios que desees. Léelos bien para no pisar el código de ninguna compañera y simplemente añadir tu receta a la lista, esto requiere práctica y para eso está este proyecto. Si no ves los cambios en el repositorio, quizá tengas que hager `git push`.
+Pero el tema es que los merges pueden generar [conflictos](https://styde.net/ramas-y-resolucion-de-conflictos-en-git/), esto suele abortar la acción y pide que soluciones el problema manualmente, aceptando o rechazando los cambios que vienen. Puedes repasar esta parte revisando la [sección 10](https://plataforma.keepcoding.io/courses/13532/lectures/230695) del curso de [Alberto](https://github.com/kasappeal). Si estás en la terminal integrada de VSCode y hay conflictos, es posible que se abra el editor para que aceptes los cambios que desees. Léelos bien para no pisar el código de ninguna compañera y simplemente añadir tu receta a la lista, esto requiere práctica y para eso está este proyecto. Si no ves los cambios en el repositorio, quizá tengas que hacer `git push`.
 
 ### Disclaimer
 
