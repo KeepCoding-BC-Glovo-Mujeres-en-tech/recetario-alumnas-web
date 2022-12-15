@@ -80,9 +80,55 @@
 
 /**********************************/
 
-/* ⤵️⤵️⤵️ Tus estilos aquí ⤵️⤵️⤵️ */
+/* ⤵️⤵️⤵️ Receta de Yoli ⤵️⤵️⤵️ */
 
-/* ⤴️⤴️⤴️ Tus estilos aquí ⤴️⤴️⤴️ */
+.Mufins {
+  background-color: rgb(240, 195, 47);
+}
+
+.mufinsTitle { 
+  text-transform: uppercase;
+  text-align: center;
+  font-size: x-large;
+  margin-bottom: 10px;
+}
+
+.mufinsTitle, .mufinsText {
+  color: rgb(246, 248, 140);
+  font-family: "Sans-serif";
+  text-shadow: 1px 1px 1px rgb(87, 85, 85);
+}
+
+.mufinsDiv {
+  display: flex;
+  background: linear-gradient(90deg, rgb(231, 215, 200), rgb(224, 188, 153), rgb(235, 181, 131));
+  border-radius: 10px;
+}
+
+.mufinsIngr {
+  line-height: 18px;
+  padding: 1%;
+}
+.mufinsImg {
+  padding: 1%;
+  position: relative;
+  width: 12rem;
+  height: 12rem;
+}
+
+.mufinsText {
+  text-align: justify;
+  font-size: large;
+  margin: 1px;
+  line-height: 25px;
+}
+
+.mufinsInstr {
+  color: rgba(0, 0, 0, 0.767);
+  
+}
+
+/* ⤴️⤴️⤴️ Receta de Yoli ⤴️⤴️⤴️ */
 
 /**********************************/
 
