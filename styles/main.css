@@ -144,9 +144,52 @@ div.mufinsIngr li::before {
 
 /**********************************/
 
-/* ⤵️⤵️⤵️ Tus estilos aquí ⤵️⤵️⤵️ */
+/* ⤵️⤵️⤵️ Receta de Sil ⤵️⤵️⤵️ */
 
-/* ⤴️⤴️⤴️ Tus estilos aquí ⤴️⤴️⤴️ */
+.turron {
+  background-image: url("../images/w-wood.jpg");
+  background-size:cover;
+}
+
+.turronTitle {
+  color:  rgb(87, 85, 81);
+  text-transform: uppercase;
+  text-align: center;
+  font-style: italic;
+  font-size: x-large;
+  font-weight: bolder;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.turronDiv {
+  background-color: rgb(164, 222, 192);
+  border-radius: 10px;
+}
+
+.turronIngr {
+  line-height: 25px;
+}
+
+.turronPrepTitle {
+  color: rgb(58, 57, 54);
+  margin: 0.5rem;
+  text-transform: uppercase;
+  text-align: left;
+  font-style: italic;
+  font-size: medium;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.turronPrep li {
+  line-height: 23px;
+  color: rgb(53, 51, 51);
+}
+
+
+
+/* ⤴️⤴️⤴️ Receta de Sil ⤴️⤴️⤴️ */
 
 /**********************************/
 
