@@ -6,7 +6,8 @@
 }
 
 .hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/deviled-eggs-banner.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('../images/deviled-eggs-banner.jpg');
   height: 25vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -42,7 +43,7 @@
 }
 
 .link {
-  color:silver;
+  color: silver;
 }
 
 /**********************************/
@@ -54,7 +55,6 @@
 
 .huevosRellTitle {
   color: sandybrown;
-  text-transform: uppercase;
   text-align: center;
   font-style: italic;
   font-size: x-large;
@@ -86,22 +86,28 @@
   background-color: rgb(240, 195, 47);
 }
 
-.mufinsTitle { 
+.mufinsTitle {
   text-transform: uppercase;
   text-align: center;
   font-size: x-large;
   margin-bottom: 10px;
 }
 
-.mufinsTitle, .mufinsText {
+.mufinsTitle,
+.mufinsText {
   color: rgb(246, 248, 140);
-  font-family: "Sans-serif";
+  font-family: 'Sans-serif';
   text-shadow: 1px 1px 1px rgb(87, 85, 85);
 }
 
 .mufinsDiv {
   display: flex;
-  background: linear-gradient(90deg, rgb(231, 215, 200), rgb(224, 188, 153), rgb(235, 181, 131));
+  background: linear-gradient(
+    90deg,
+    rgb(231, 215, 200),
+    rgb(224, 188, 153),
+    rgb(235, 181, 131)
+  );
   border-radius: 10px;
 }
 
@@ -110,15 +116,15 @@
   padding: 1%;
 }
 div.mufinsIngr li {
-	list-style: none;
+  list-style: none;
 }
 
 div.mufinsIngr li::before {
-	content: "🥚";
-	color: rgb(221, 233, 168, 0.5);
-	display: inline-block;
-	width: 1em;
-	margin-left: -1em;
+  content: '🥚';
+  color: rgb(221, 233, 168, 0.5);
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
   margin-right: 1rem;
 }
 .mufinsImg {
@@ -137,7 +143,6 @@ div.mufinsIngr li::before {
 
 .mufinsInstr {
   color: rgba(0, 0, 0, 0.767);
-  
 }
 
 /* ⤴️⤴️⤴️ Receta de Yoli ⤴️⤴️⤴️ */
@@ -147,12 +152,12 @@ div.mufinsIngr li::before {
 /* ⤵️⤵️⤵️ Receta de Sil ⤵️⤵️⤵️ */
 
 .turron {
-  background-image: url("../images/w-wood.jpg");
-  background-size:cover;
+  background-image: url('../images/w-wood.jpg');
+  background-size: cover;
 }
 
 .turronTitle {
-  color:  rgb(87, 85, 81);
+  color: rgb(87, 85, 81);
   text-transform: uppercase;
   text-align: center;
   font-style: italic;
@@ -186,8 +191,6 @@ div.mufinsIngr li::before {
   line-height: 23px;
   color: rgb(53, 51, 51);
 }
-
-
 
 /* ⤴️⤴️⤴️ Receta de Sil ⤴️⤴️⤴️ */
 
