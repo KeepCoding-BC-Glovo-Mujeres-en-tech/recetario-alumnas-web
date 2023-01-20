@@ -37,6 +37,7 @@ De momento podemos omitir este paso, porque sólo vamos a utilizar `html` y `css
 5. Cuando hayas terminado, guarda los cambios y añádelos al _staging area_ con `git add <nombre del fichero>` o `git add -A` (para añadir todos los cambios de una vez).
 
 6. Haz un commit con `git commit` que siga unas buenas prácticas:
+
 - Que sea en inglés.
 - Que comience con un verbo en infinitivo.
 - Que sea descriptivo pero no excesivamente largo.
@@ -50,12 +51,19 @@ Por ejemplo, _Add new recipe_ o _Write the recipe of paella_.
 
 Ahora toca mergear.
 
+PERO.
+
+Si alguna compañera más ha trabajado en el repo a la vez que tú y ha pusheado a main y tú no te has dado cuenta, a lo mejor vuestras recetas se solapan y eso puede generar [conflictos](https://styde.net/ramas-y-resolucion-de-conflictos-en-git/) en el merge. Te recomiendo hacer `git rebase main` antes de nada para que, si alguien ha subido más cosas a main que no se han actualizado correctamente en tu rama, te los puedas traer.
+
+Acuérdate de leer bien todo lo que te indique la terminal, suele darte las soluciones a errores y conflictos (y si sigues con dudas, ¡escribe a las compañeras! Siempre estamos ahí y seguro que alguna sabe ayudarte).
+
 ## Merge
 
 Existen numerosos [tutoriales](https://www.freecodecamp.org/espanol/news/la-guia-definitiva-para-git-merge-y-git-rebase/) para enseñarnos a mergear, [lo hemos visto en clase](https://plataforma.keepcoding.io/courses/13532/lectures/215372)... Pero ponerlo en práctica da algo de miedo. "¡No me quiero cargar nada!" Da igual. Para eso está este repo, para practicar y poder cargarnos cosas. Mejor que se rompa este repo que el proyecto final.
 Recuerda que el merge ocurre en la rama en la que estemos posicionadas, por lo tanto, antes de mergear debemos volver a main con `git checkout main`. Y no olvides que los merges también son commits.
 
 En modo rápido se puede resumir en dos acciones principales (tras haber creado una rama, escrito una receta y pusheado):
+
 ```
 git checkout main
 ```
@@ -63,7 +71,12 @@ git checkout main
 ```
 git merge <nombre-de-la-rama>
 ```
-Pero el tema es que los merges pueden generar [conflictos](https://styde.net/ramas-y-resolucion-de-conflictos-en-git/), esto suele abortar la acción y pide que soluciones el problema manualmente, aceptando o rechazando los cambios que vienen. Puedes repasar esta parte revisando la [sección 10](https://plataforma.keepcoding.io/courses/13532/lectures/230695) del curso de [Alberto](https://github.com/kasappeal). Si estás en la terminal integrada de VSCode y hay conflictos, es posible que se abra el editor para que aceptes los cambios que desees. Léelos bien para no pisar el código de ninguna compañera y simplemente añadir tu receta a la lista, esto requiere práctica y para eso está este proyecto. Si no ves los cambios en el repositorio, quizá tengas que hacer `git push`.
+
+```
+git push
+```
+
+Si, a pesar de haber hecho `git rebase main` desde tu rama y haberlo arreglado todo ahí, sigue habiendo [conflictos](https://styde.net/ramas-y-resolucion-de-conflictos-en-git/), se abortará la acción y tendrás que solucionar el problema manualmente, aceptando o rechazando los cambios que vienen y subes. Puedes repasar esta parte revisando la [sección 10](https://plataforma.keepcoding.io/courses/13532/lectures/230695) del curso de [Alberto](https://github.com/kasappeal). Si estás en la terminal integrada de VSCode y hay conflictos, es posible que se abra el editor para que aceptes los cambios que desees. **Léelos bien** para no pisar el código de ninguna compañera y simplemente añadir tu receta a la lista, esto requiere práctica y para eso está este proyecto. Si no ves los cambios en el repositorio, quizá no hayas hecho `git push` tras el merge, revísalo.
 
 ### Disclaimer
 
