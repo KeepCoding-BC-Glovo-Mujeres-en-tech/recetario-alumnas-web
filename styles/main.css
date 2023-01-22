@@ -196,9 +196,77 @@ div.mufinsIngr li::before {
 
 /**********************************/
 
-/* ⤵️⤵️⤵️ Tus estilos aquí ⤵️⤵️⤵️ */
+/* ⤵️⤵️⤵️ Receta de Nicole ⤵️⤵️⤵️ */
+.poachedimg {
+  padding: 1%;
+  position: relative;
+  width: 12rem;
+  height: 12rem;
+}
 
-/* ⤴️⤴️⤴️ Tus estilos aquí ⤴️⤴️⤴️ */
+.poachedTitle {
+  text-align: center;
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #6d4a51 !important;
+}
+
+.poachedDiv {
+  display: flex;
+  background: linear-gradient(
+    90deg,
+    rgb(118, 82, 82),
+    rgb(121, 72, 72),
+    rgb(135, 73, 73)
+  );
+  border-radius: 20px;
+}
+
+.poachedBody {
+  text-align: justify;
+  color: #777;
+    font-family: Lora;
+    font-size: 15px;
+    line-height: 1.75;
+    letter-spacing: 0px;
+    background-color: rgb(247, 230, 230);
+    border-radius: 10px;
+
+}
+
+.preptitle {
+  text-align: justify;
+  color: #777;
+  font-family: Lora;
+  font-size: 19px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: 0px;
+  text-transform: none;
+  background-color: rgb(247, 230, 230);
+  border-radius: 10px;
+}
+
+.poachedingr {
+  color: rgb(246, 244, 244);
+    font-family: Lora;
+    font-size: 15px;
+    line-height: 1.75;
+    letter-spacing: 0px;
+    margin-left: 1em;
+    margin-right: 1rem;
+    margin-top: 3rem;
+    
+    
+}
+
+/* ⤴️⤴️⤴️ Receta de Nicole ⤴️⤴️⤴️ */
 
 /**********************************/
 
